@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Environments & secrets ---
+.env
+.env*/
+.venv/
+venv/
+
+# --- Databases (keep CSV as source of truth) ---
+*.db
+*.db-shm
+*.db-wal
+
+# --- Logs & OS cruft ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
